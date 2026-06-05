@@ -49,7 +49,7 @@
     padding: 0.3rem;
 }
 
-.card-versus {
+.card-versus__container {
     display: flex;
     flex-direction: column;
     justify-content: center;  
