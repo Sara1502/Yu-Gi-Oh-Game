@@ -34,6 +34,7 @@
 }
 
 .container__left {
+    display: flex;
     width: 30%;
     min-width: 300px;
     flex-direction: column;
@@ -116,3 +117,10 @@
     border-radius: 8px;
 }
 
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
